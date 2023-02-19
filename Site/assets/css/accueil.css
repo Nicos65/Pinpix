@@ -1,0 +1,6 @@
+/* PAGE D'ACCUEIL */
+/* Centre le titre et le texte */
+.col h2,
+.col p {
+    text-align: center;
+}

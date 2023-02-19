@@ -1,0 +1,248 @@
+/*-------------------------------------- COLORS -------------------------------------- */
+/*
+#834b4a
+#733a39
+#c2c2c2
+#494949
+#e5e5e5
+#212529
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+*,
+::before,
+::after {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.titles-pages {
+    font-size: 2.5em;
+    color: #733a39;
+    font-weight: 700;
+}
+
+.color-bordeau {
+    color: #62302f;
+}
+  
+.color-dark {
+    color: #212529;
+}
+  
+.a-hover:hover {
+    color: #733a39;
+}
+
+/* HEADER ALL */
+.title-header {
+    margin: 0 !important;
+    font-family: 'Limelight', cursive;
+}
+
+header {
+    height: 100px;
+    padding-top: 10px;
+    background-color: #733a39;
+}
+
+header h1 {
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+.div_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    padding-right: 20px;
+}
+
+.header {
+    border: none !important;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #733a39;
+
+}
+
+#recherche {
+    width: 370px;
+    height: 30px;
+    font-style: italic;
+}
+
+nav ul,
+nav li {
+    list-style-type: none;
+}
+
+.onglets {
+    display: flex;
+    flex-direction: row;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    border-bottom: #FFF 1px solid;
+    color: #fff !important;
+}
+
+nav li:hover {
+    color: #fff !important;
+}
+
+li .dropdown-item:hover {
+    color: #494949 !important;
+}
+
+.form-control:focus {
+    border-color: #733a39;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+
+/*Navbar utilisateur connecté*/
+.nav-connected {
+    background-color: rgb(115, 58, 57);
+    border: solid rgb(150, 88, 87);
+}
+
+.menu-focus:focus {
+    color: #fff;
+}
+
+/* NAV FOOTER */
+
+footer {
+    color: #fff;
+    padding: 30px 100px;
+    background-color: #733a39;
+}
+
+footer h1 {
+    letter-spacing: 2px;
+}
+
+.nav-footer ul li {
+    padding-bottom: 5%;
+}
+
+.nav-footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-footer ul li a:hover {
+    color: #000;
+}
+
+footer .services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .services .service {
+    margin-right: 30px;
+}
+
+footer .services .service p {
+    max-width: 250px;
+}
+
+#end {
+    text-align: center;
+}
+// testing
+
+.dimension{
+    width: 200px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.gallery-images .box {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.gallery-images .box:hover {
+    scale: 1.2;
+}
+
+
+.gallery-images .box p {
+    margin: 0;
+}
+
+.add-image {
+    position: absolute;
+    border: none;
+    background: none;
+    right: 0px;
+    bottom: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.add-image:hover {
+    scale: 0.5;
+}
+
+.add-image i {
+    font-size: 2.5em;
+    color: #733a39;
+    font-weight: bold;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+@media screen and(max-width:1000px){
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .gallery-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

@@ -1,0 +1,21 @@
+.btn-inscription {
+  color: #fff;
+  background: #733a39;
+}
+
+.btn-inscription:hover {
+  background: #733a39;
+}
+
+/*Bouton select*/
+.del-image {
+  visibility: hidden;
+  position: relative;
+}
+
+.btn-del-image {
+  position: absolute;
+  border: none;
+  background: none;
+  padding: 10px;
+}/*# sourceMappingURL=inscription.css.map */

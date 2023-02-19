@@ -1,0 +1,64 @@
+.avatar {
+    width: 160px;
+}
+
+.element {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.profil-gallery-title {
+    position: absolute;
+    top: -47px;
+    font-size: 3em;
+    margin-left: 10px;
+}
+
+.profil-gallery-title {
+    &::after {
+        content: "";
+    }
+
+    &:hover::after {
+        content: " ⟶";
+        color: #212529;
+    }
+}
+
+.top {
+    position: absolute;
+    width: 250px;
+    border-top: 7px solid #212529;
+    top: 0px;
+}
+
+.left {
+    position: absolute;
+    height: 100px;
+    border-left: 7px solid #212529;
+    left: 0px;
+    top: 0px;
+}
+
+.bottom {
+    position: absolute;
+    width: 250px;
+    border-bottom: 7px solid #212529;
+    bottom: 0px;
+    right: 0px;
+}
+
+.right {
+    position: absolute;
+    height: 100px;
+    border-right: 7px solid #212529;
+    right: 0px;
+    bottom: 0px;
+}
+
+#submit_image {
+    background-color: none;
+    border: #62302f 2px solid;
+    color: #62302f;
+}

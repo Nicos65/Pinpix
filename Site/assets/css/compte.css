@@ -1,0 +1,40 @@
+/* PAGE COMPTE */
+.container {
+    padding: 10 0 50 0;
+    justify-content: center;
+}
+
+.change-image-account {
+    width: 200px;
+    height: 250px;
+}
+
+.btn-account {
+    width: 100px;
+    margin: 3px;
+}
+
+.input-upload-img {
+    width: 200px;
+}
+
+.btn-account-validate {
+    background: #733a39;
+    color: #fff;
+}
+
+.btn-account-validate:hover {
+    background: #62302f;
+    color: #fff;
+}
+
+.btn-account-cancel {
+    border: #733a39 2px solid;
+    background: none;
+    color: #733a39;
+}
+
+.btn-account-cancel:hover {
+    border: #62302f 2px solid;
+    color: #62302f;
+}

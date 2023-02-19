@@ -1,0 +1,24 @@
+/* PAGE DASHBOARD */
+.form-role {
+    width: 200px;
+}
+
+table,
+tr,
+td {
+    border: none;
+}
+
+thead th {
+    border-bottom: #62302f 2px solid;
+}
+
+tbody tr td {
+    border-bottom: rgb(166, 163, 163) 1px solid;
+}
+
+.research-account,
+.research-tags {
+    margin-left: 10px;
+    font-size: 1.6em;
+}

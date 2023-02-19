@@ -1,0 +1,39 @@
+/* PAGE CONTACT*/
+.box {
+    position: relative;
+}
+
+#moncercle {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 20px;
+    border: #733a39 8px solid;
+}
+
+.rectangle {
+    position: absolute;
+    width: 700px;
+    top: 120px;
+    right: -250px;
+    bottom: 100px;
+}
+
+.btn-primary {
+    color: #733a39;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #FFF;
+    color: #733a39;
+}
+
+form.form-rectangle {
+    background-color: #62302f;
+}
+
+.form-group {
+    color: #fff;
+}

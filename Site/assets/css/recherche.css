@@ -1,0 +1,36 @@
+/* PAGE RECHERCHE */
+.nav-tabs {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #733a39;
+}
+
+a.nav-link {
+    color: #733a39;
+    margin-right: 5px;
+    border: #733a39 !important;
+}
+
+div {
+    background-image: url('');
+}
+
+a.nav-link:hover {
+    background-color: rgba(115, 58, 57, 0.66) !important;
+    color: white !important;
+    border: none;
+}
+
+a.nav-link.active {
+    background: #733a39 !important;
+    color: white !important;
+    border: none;
+}
+
+li.found-user {
+    list-style-type: none;
+}
+
+li.found-user a {
+    color: #733a39;
+}
